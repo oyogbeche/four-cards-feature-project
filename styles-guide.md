@@ -43,7 +43,7 @@ The designs were created to the following widths:
   -height: auto; /* Optional: use a fixed height if required */
   -padding: 20px;
   -margin: 10px;
-  -background-color: white; /* Example background color */
-  -border: 1px solid #ccc; /* Example border */
-  -box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Example shadow */
-  -border-radius: 8px; /* Example rounded corners */
+  -background-color: white; /*  background color */
+  -border: 1px solid #ccc; /* border */
+  -box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /*  shadow */
+  -border-radius: 8px; /* rounded corners */
