@@ -64,6 +64,8 @@ header p {
 }
 /* header styles end here */
 
+
+
 /* supervisor card styles begin here */
 .supervisor__card::before {
   content: "";
@@ -78,6 +80,7 @@ header p {
 
 .supervisor__card {
   display: flex;
+  top: 20;
   flex-direction: column;
   justify-content: space-between;
   border-radius: 8px;
@@ -210,3 +213,64 @@ header p {
 .team_builder_card_img{
   text-align: right;
 }
+
+/* calculator card style */
+ 
+  .Card-Header {
+    
+    height: 5px;
+    background-color: var(--color-blue);
+   
+    
+   
+    
+  }
+  
+  .Card-Icon {
+   float: right;
+  padding-right: 0px;
+  padding-top: 50px;
+   
+  }
+  
+  .card-title {
+  
+  text-align: left;
+  padding-left: 10px;
+  
+  
+  }
+  .card-description{
+  
+    display: flex;
+     max-width: 300px;
+    width: 100%;
+    text-align: left;
+    height: auto;
+    margin: 10px;
+    color: grey;
+    padding-top: 30px;
+  
+  }
+  .Calculator-card{
+    
+    height: 250px;
+    max-width: 300px;
+    border: 1px solid #f7f7f7;
+    font-family: poppins;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin: 10px;
+    width: 100%;
+    padding: 20px;
+    font-weight: strong;
+    color: grey;
+   
+    
+
+  }
+
+
+
+  /* Calculator card styling ends */
