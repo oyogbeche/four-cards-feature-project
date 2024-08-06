@@ -35,6 +35,8 @@ body {
   background-color: var(--color-light-gray);
 }
 
+
+
 /* supervisor card styles begin here */
 .supervisor__card::before {
   content: "";
@@ -49,6 +51,7 @@ body {
 
 .supervisor__card {
   display: flex;
+  top: 20;
   flex-direction: column;
   justify-content: space-between;
   border-radius: 8px;
