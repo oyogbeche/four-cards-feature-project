@@ -15,70 +15,80 @@
     />
   </head>
   <body>
-    <header>
-      <h1>Reliable, efficient delivery</h1>
-      <h2>Powered by Technology</h2>
-      <p>
-        Our Artificial intelligence powered tools use millions of project data
-        points to ensure that your project is successful
-      </p>
-    </header>
-
-    <!-- Four Feature Card -->
-    <main class="main_container">
-      <!-- Team builder card -->
-      <section class="team_builder_card_container">
-        <span class="team_builder_card_red_line"></span>
-        <h2 class="team_builder_card_heading">Team Builder</h2>
-        <p class="team_builder_card_text">
-          scans our talent network to create the ultimate team for your Project
+    <div class="parent__container">
+      <header>
+        <h1>Reliable, efficient delivery</h1>
+        <h2>Powered by Technology</h2>
+        <p>
+          Our Artificial intelligence powered tools use millions of project data
+          points to ensure that your project is successful
         </p>
-        <div class="team_builder_card_img">
-          <img
-            src="../assets/icons/icon-team-builder.png"
-            alt="team buider icon image"
-          />
+      </header>
+
+      <!-- Four Feature Card -->
+      <main class="main_container">
+        <div class="features__grid">
+          <!-- Supervisor Card -->
+          <section class="supervisor__card card__hover--effect card__effect">
+            <h3>Supervisor</h3>
+            <p>Monitors activity to identify project roadblocks</p>
+            <div>
+              <img
+                src="../assets/icons/icon-supervisor.png"
+                alt="Supervisor Icon"
+              />
+            </div>
+          </section>
+
+          <!-- Team builder card -->
+          <section
+            class="team_builder_card_container card__hover--effect card__effect"
+          >
+            <span class="team_builder_card_red_line"></span>
+            <h2 class="team_builder_card_heading">Team Builder</h2>
+            <p class="team_builder_card_text">
+              scans our talent network to create the ultimate team for your
+              Project
+            </p>
+            <div class="team_builder_card_img">
+              <img
+                src="../assets/icons/icon-team-builder.png"
+                alt="team buider icon image"
+              />
+            </div>
+          </section>
+
+          <!-- Karma Card -->
+          <section class="karma-card card__hover--effect card__effect">
+            <h3>Karma</h3>
+            <p>Regularly evaluates our talent to ensure quality</p>
+            <div>
+              <img src="../assets/icons/icon-karma.png" alt="Karma Icon" />
+            </div>
+          </section>
+
+          <!-- Calculator Card -->
+          <section class="Calculator-card card__hover--effect card__effect">
+            <div class="Card"></div>
+
+            <div class="Card-Header"></div>
+
+            <h3 class="card-title">Calculator</h3>
+
+            <p class="card-description">
+              Uses data from past projects to provide better delivery estimates
+            </p>
+
+            <div class="Card-Icon">
+              <img
+                src="../assets/icons/icon-calculator.png"
+                alt="Calculator Icon"
+                class="Card-Icon"
+              />
+            </div>
+          </section>
         </div>
-      </section>
-      <!-- Supervisor Card -->
-      <section class="supervisor__card">
-        <h3>Supervisor</h3>
-        <p>Monitors activity to identify project roadblocks</p>
-        <div>
-          <img
-            src="../assets/icons/icon-supervisor.png"
-            alt="Supervisor Icon"
-          />
-        </div>
-      </section>
-      <section class="karma-card">
-        <h3>Karma</h3>
-        <p>Regularly evaluates our talent to ensure quality</p>
-        <div>
-          <img src="../assets/icons/icon-karma.png" alt="Karma Icon" />
-        </div>
-      </section>
-
-      <!-- Calculator Card -->
-      <section class="Calculator-card">
-        <div class="Card"></div>
-
-        <div class="Card-Header"></div>
-
-        <h3 class="card-title">Calculator</h3>
-
-        <p class="card-description">
-          Uses data from past projects to provide better delivery estimates
-        </p>
-
-        <div class="Card-Icon"></div>
-
-        <img
-          src="../assets/icons/icon-calculator.png"
-          alt="Calculator Icon"
-          class="Card-Icon"
-        />
-      </section>
-    </main>
+      </main>
+    </div>
   </body>
 </html>
