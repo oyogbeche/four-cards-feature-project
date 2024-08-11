@@ -16,10 +16,10 @@ you can see the live preview of the website[here](https://cyan-proud-hide.glitch
 
 ## Features
 
--supervisor card thats monitors activity
--team builder card that scans talent network
--karma card that evaluates talent quality
--claculator card that extimates delivery time
+>supervisor card thats monitors activity
+>team builder card that scans talent network
+>karma card that evaluates talent quality
+>claculator card that extimates delivery time
 
 ## Installation
 
